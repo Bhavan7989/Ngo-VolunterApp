@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Volunteer Connect — NGO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- decorative cursor -->
+  <div class="cursor" id="cursor"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <svg class="logo" width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="1" y="1" width="22" height="22" rx="6" fill="url(#g)"/>
+          <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#10B981"/></linearGradient></defs>
+        </svg>
+        <span class="brand-name">Volunteer Connect</span>
+      </div>
+
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#opportunities">Opportunities</a>
+        <a href="#events">Events</a>
+        <a href="#volunteers">Volunteers</a>
+        <a href="#contact" class="cta-link">Contact</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1 class="headline">Help the world. <span class="humanized">One act of care</span> at a time.</h1>
+          <p class="lead">Find meaningful volunteering opportunities near you. Sign up, apply, and make an impact — we make it simple and human.</p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#opportunities">Browse Opportunities</a>
+            <button class="btn ghost" id="btn-story">Our Story</button>
+          </div>
+
+          <div class="human-note">
+            <div class="avatar floating" aria-hidden="true">
+              <!-- simple avatar SVG -->
+              <svg viewBox="0 0 80 80" width="52" height="52" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="26" r="14" fill="#FDE68A"/>
+                <rect x="12" y="44" rx="10" width="56" height="26" fill="#A7F3D0"/>
+              </svg>
+            </div>
+            <div class="human-text">
+              <strong>Hi — I'm Beesabathina Bhavan Narayana, Community Coordinator</strong>
+              <span>We welcome all backgrounds. Tell us your skills and we'll match you.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="card hero-card reveal">
+            <div class="card-head">
+              <strong>Next event</strong>
+              <span>Community Tree Planting • Nov 15, 2025</span>
+            </div>
+            
+            
+              <div class="card-actions">
+                <a class="btn small" href="#events">Join Event</a>
+                <a class="roshan" href="#opportunities">View similar</a>
+              </div>
+            </div>
+            <div class="ripple" aria-hidden="true"></div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- OPPORTUNITIES -->
+    <section id="opportunities" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Volunteer Opportunities</h2>
+          <p>Choose by skill, date, or cause — filter to see ones that fit you.</p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- card 1 -->
+          <article class="card reveal">
+            <div class="card-top">
+              <h3>Beach Cleanup</h3>
+              <span class="tag">Environment</span>
+            </div>
+            <p>Help collect and sort recyclables on the beach. Family-friendly.</p>
+            <div class="card-footer">
+              <span>Nov 8 • 4 hours</span>
+              <a class="btn tiny" href="#contact">Apply</a>
+            </div>
+          </article>
+
+          <!-- card 2 -->
+          <article class="card reveal">
+            <div class="card-top">
+              <h3>Teach Coding</h3>
+              <span class="tag">Education</span>
+            </div>
+            <p>Volunteer to run 2-hour coding workshops for teens. No experience required.</p>
+            <div class="card-footer">
+              <span>Nov 20 • 2 hours</span>
+              <a class="btn tiny" href="#contact">Apply</a>
+            </div>
+          </article>
+
+          <!-- card 3 -->
+          <article class="card reveal">
+            <div class="card-top">
+              <h3>Senior Care Visit</h3>
+              <span class="tag">Community</span>
+            </div>
+            <p>Weekly companionship visits to local senior centers. Training provided.</p>
+            <div class="card-footer">
+              <span>Ongoing • Flexible</span>
+              <a class="btn tiny" href="#contact">Apply</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="events" class="section alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Upcoming Events</h2>
+          <p>Meetups, drives, and community actions — pick one and sign up.</p>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="event">
+            <time>Nov 15</time>
+            <div class="event-body">
+              <h4>Tree Planting</h4>
+              <p>Location: Green Park — tools & snacks provided.</p>
+            </div>
+          </div>
+
+          <div class="event">
+            <time>Dec 05</time>
+            <div class="event-body">
+              <h4>Winter Clothing Drive</h4>
+              <p>Donate & sort warm clothes for families in need.</p>
+            </div>
+          </div>
+
+          <div class="event">
+            <time>Jan 10</time>
+            <div class="event-body">
+              <h4>Literacy Workshop</h4>
+              <p>Volunteer tutors for reading & writing classes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VOLUNTEERS -->
+    <section id="volunteers" class="section">
+      <div class="container reveal">
+        <h2>Voices of Volunteers</h2>
+        <p class="muted">Real people. Real impact.</p>
+
+        <div class="testimonials">
+          <blockquote class="testimonial">
+            "I met friends and learned so much. Volunteering changed how I see community."
+            <cite>— Roshan</cite>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            "Simple process, heartwarming results. The schedule feature is lifesaving!"
+            <cite>— Bhanu</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section alt">
+      <div class="container">
+        <div class="contact-grid reveal">
+          <div class="contact-info">
+            <h2>Get Involved</h2>
+            <p>Tell us a bit about yourself and which opportunity you'd like. We'll get back within 48 hours.</p>
+            <ul class="meta">
+              <li><strong>Email:</strong> bhavan285333@gmail.com</li>
+              <li><strong>Phone:</strong> +91 7989057679</li>
+              <li><strong>Location:</strong> Andhra Pradesh, India</li>
+            </ul>
+          </div>
+
+          <form id="contactForm" class="contact-form" novalidate>
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required minlength="2" />
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required />
+            </label>
+
+            <label>
+              <span>Choose Opportunity</span>
+              <select name="opportunity" required>
+                <option value="">Select one...</option>
+                <option value="beach_cleanup">Beach Cleanup</option>
+                <option value="teach_coding">Teach Coding</option>
+                <option value="senior_visit">Senior Care Visit</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" placeholder="Tell us about your skills or availability"></textarea>
+            </label>
+
+            <div class="form-row">
+              <button class="btn primary" type="submit">Send Message</button>
+              <button class="btn ghost" type="reset">Reset</button>
+            </div>
+
+            <div id="formMsg" class="form-msg" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+ <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-boxes">
+      <div class="footer-box reveal">
+        <h4>Venkata Roshan</h4>
+        <p>📧 bvr07042004@gmail.com</p>
+        <span class="role">Full Stack Developer</span>
+      </div>
+      <div class="footer-box reveal">
+        <h4>Bhanu</h4>
+        <p>📧 phjvjkjgjkjh</p>
+        <span class="role">Community Lead</span>
+      </div>
+      <div class="footer-box reveal">
+        <h4>priya</h4>
+        <p>📧 ramhgchgjykfgfggk</p>
+        <span class="role">Event Coordinator</span>
+      </div>
+      <div class="footer-box reveal">
+        <h4>Bose</h4>
+        <p>📧 htfjkblhgj mnb</p>
+        <span class="role">Volunteer Manager</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div>© <span id="year"></span> Volunteer Connect • Built with ❤️</div>
+    <div class="socials">
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+      <a href="*">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
